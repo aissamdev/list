@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js"></script>
+  <title>Add/delete from list</title>
+</head>
+<body>
+  <header id="header">
+    <h1>Dynamic List</h1>
+  </header>
+  <main id="main">
+    <section id="section">
+      <form>
+        <div id="div-form">
+          <h2>Enter the data to append</h2>
+          <input type="text" placeholder="Enter data" id="input">
+          <button onclick="create()" id="submit">Submit data</button>
+        </div>
+        <div id="div-form">
+          <h2>Click the button to delete</h2>
+          <input type="submit" value="Delete data" id="delete">
+        </div>
+      </form>
+    </section>
+    <aside id="aside">
+      <div id="table">
+        <h2>List of elements:</h2>
+        <ul id="list">
+          <li class="item">Nigga</li>
+        </ul>
+      </div>
+    </aside>
+  </main>
+</body>
+</html>
